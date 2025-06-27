@@ -1,0 +1,7 @@
+you needs to downloads python from python.org and cryptographie just write the is code "pip install cryptography" in cmd or your terminale 
+
+command:
+"en": encryption files
+"de": decryptions files
+"exit": for exit connection
+"go back": to rewrite the path
