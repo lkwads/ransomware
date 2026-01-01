@@ -150,33 +150,7 @@ def connection(prv_key, status, sock):
             connection(prv_key, status, sock)
 
 
-prv_key = """-----BEGIN RSA PRIVATE KEY-----
-MIIEowIBAAKCAQEAq/Z2uZw/5J3Hb0nzTfECPdzAumNhqrskAqd+oGbWO9U82Miy
-sJtvxtOXUmLCWM0DSldTDoy4i5o3igkAGkcVyg0/NTcKGFMHln2XwUSUg9f8yJHO
-pA7u7ckg/QBT4P41tQimHHS8x5jRfrEr/BuRtnjoznZh+5FvK5ONPM/eBGLRR/0/
-FIUY0dg6yOM5R1VJGejgp/0/8XX7Ag7YpQNEIy63RTWJwd0S/3mgrJh1fusMA48y
-PLvapTg0yk5aZ6wXvwwcYxCgEkr3BQJKCim/ve/fYkvASneYc+8HY/7Hmcrda30B
-Dz1XvOu5LulyT+X/Ba7GWAhixnL3vjd/9Cn0hQIDAQABAoIBAATw2OpuVduguOk2
-q7nykcjrPdJdJqI8LEWzQE0lh0RC1TO5WIEAhk6lJ7TjR4g7o7uQFL/XRTolnTDn
-H0yh/DtI9Cb4RN78C7zEMQcJjGbZXtb4cYJ/N1g3ri32w3I0e6CO9g7dP8tQVbyZ
-JJViyWX/xVihSCFtRU9wNt+nbU6c6B74j+9EWhsPs/5tX5wf1e5Z77jqziNk25UN
-1hoEHbEg0Fbkhkypyuy0zRq7YJ/IftD19ZlOAm+J9o/QGcoHBiSO8sc1Wo0KZuI8
-sxhyGrz5Clj2e1A2MZ+6DBNlJAW78W9NOFffLTC1vpyvkx9GUFuO0DiMrBjOOR5G
-xY2/LkUCgYEAvi9O/8j2a6cY13kupK7aIh0Gn8EsmFzFXNi5x/F/Dj3jfecoKvhx
-VEpc1WXM2ildpV6xmmcPFHI3OWhU0sSLy0eb7bFHfZJIYiKU/OT6yxvyLOYmJYB7
-Pt1Z4AqngRY9EsshLuNSR5OpWpnlNtOO9UjQkQytCFjVzSvFXSg+gj8CgYEA53jX
-uc/v1RS/yc1ph3n3isCJ37cGE6L3LkiuOrsZqbHVsmfb/jwEVy3gUhHYEOl0CDr9
-DuTRpyCYjmDu1/fZtz8kI4ZmDruzMfWnLBa+xOcV2nRruA+GXWfcAyATPfdBOhMm
-cItsNdXtw0PTuSCDIwrhxeY43oKB2ZyoRLbiEDsCgYBX4qrB/s8I7l3HbOOGDJsW
-uo0OFAmUmwJFJo2rfMi2/xh6XPCt8sMELZz6rCFfC1CQE9NEw60vSJyGddUE1Pi4
-xm2jCJI9z/SNDOgGeZX/d/mQkAY+vEG3yjg3FRVUzL8KST4bWcby9qSDDqziih78
-8FoZPV9UhSC/wCNjKi7ApwKBgBdNvTpByv2C10Qz3/n5t4hKlhbl0EDN2WDZhGD5
-UT4aX09U0XspA67bOYhJr50UQ9BIUA3dz5Wp3HIJJEKt+0dNng/NihzVnNbcynXP
-3GjqcvLJYcboGTjyKd5OrmFAsVptbyNJhh1takCMZZZvxYQTpmNMKFGOhhAoi3BP
-kTbdAoGBAKh+1CFFexTXL6fD9yFqQLzxqKpy5h8bBmgZxgU6yHyYdOwOdXcAdUe5
-+iZ5bfT13PNhLYcod+WIa+7GqWBfT7fs4/jK01n5UTdFvhFnEbd/uMc87hcvDs16
-+cI4JgL02sTMflv000K5VPZNTe9Kw8lunNP5yICIo646JlcQCO07
------END RSA PRIVATE KEY-----"""
+prv_key = "yout private key genrate it please."
 prv_key = prv_key.encode("UTF-8")
 sock = ""
 def run(prv_key):         
