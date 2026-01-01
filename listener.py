@@ -56,15 +56,7 @@ def lisner(pk,key) :
                         continue
 
 
-pub_key = """-----BEGIN PUBLIC KEY-----
-MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq/Z2uZw/5J3Hb0nzTfEC
-PdzAumNhqrskAqd+oGbWO9U82MiysJtvxtOXUmLCWM0DSldTDoy4i5o3igkAGkcV
-yg0/NTcKGFMHln2XwUSUg9f8yJHOpA7u7ckg/QBT4P41tQimHHS8x5jRfrEr/BuR
-tnjoznZh+5FvK5ONPM/eBGLRR/0/FIUY0dg6yOM5R1VJGejgp/0/8XX7Ag7YpQNE
-Iy63RTWJwd0S/3mgrJh1fusMA48yPLvapTg0yk5aZ6wXvwwcYxCgEkr3BQJKCim/
-ve/fYkvASneYc+8HY/7Hmcrda30BDz1XvOu5LulyT+X/Ba7GWAhixnL3vjd/9Cn0
-hQIDAQAB
------END PUBLIC KEY-----"""
+pub_key = "you public key genrate it please."
 pub_key = pub_key.encode("utf-8")
 key = input("==>please enter the symetrique key for encryption and saved it for decryption \n>>")
 try:
@@ -74,3 +66,4 @@ except :
       
       
       
+
